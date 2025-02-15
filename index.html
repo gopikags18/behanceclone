@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behance</title>
+    <link rel="stylesheet" href="./index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Engagement&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quintessential&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="maincontainer bg-light">
+      <nav class="navbar">
+        <div class="nav-left">
+            <a href="#" class="logo">Bēhance</a>
+            <ul class="nav-links">
+                 <div class="dropdown">
+                  <button class="btn btn-light dropdown-toggle mt-3 border-border-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Explore
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Search and Explore</a></li>
+                    <li><a class="dropdown-item" href="#">Assets</a></li>
+                    <li><a class="dropdown-item" href="#">Curated Galleries</a></li>
+                    <hr>
+                    <li><a class="dropdown-item" href="#">Best of Behance</a></li>
+                    <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+                    <li><a class="dropdown-item" href="#">Illustration</a></li>
+                    <li><a class="dropdown-item" href="#">Photography</a></li>
+                    <li><a class="dropdown-item" href="#">UI/UX design</a></li>
+                    <li><a class="dropdown-item" href="#">3D Animation</a></li>
+
+                  </ul>
+                </div>
+                <li class="mt-4"><a href="#">Jobs</a></li>
+                <li class="mt-4"><a href="#">Behance <span id="pro" style="background-color: darkblue; color: white;">Pro</span></a></li>
+                
+            <span class="mt-4" style="margin-left: 50px;">|</span>   
+
+         <li class="mt-4"><a href="#">Hire Freelancers</a></li>
+        </ul>   
+        </div>
+        
+        <div class="nav-right">
+          <i style="font-size: 25px;"  class="fa-solid fa-bell"></i>
+          <a href="#" class="login-btn">Login</a>
+            <a href="#" class="signup-btn">Signup</a>
+            
+            <img src="./images/adobe-removebg-preview.png" alt="adobe" class="adobe">
+        </div>
+    </nav>
+
+    <hr>
+    
+    <div class="nav-center">
+
+     <a href="#" class="login-btn1 ">Filter</a>
+    <input type="text"  class="search-bar search-input" style="font-weight: bold;"   placeholder="  🔍Search creative world at work">
+    <a href="#" class="login-btn2 ">Recommended</a>
+  </div>
+
+  <hr>
+ 
+    
+   <div id="photodiv">
+
+
+  
+
+
+    
+    <div class="box" id="b1">
+      <img  style="border-radius: 10px; height: 250px;" class="img-fluid  shadow"  src="./images/behance2.1.jpeg" alt="">
+      <div class="content  d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class=" p-0">Cecilia Adams</p> 
+
+
+      
+    </div>
+
+    <div class="box" id="b2">
+      <img  style="border-radius: 10px; height: 250px;" class="img-fluid ms-2 shadow"  src="./images/car.jpeg" alt="">
+      <div class="content ms-2 d-flex mt-3 p-0">
+        <h4>Super Car &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 2000
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;4678
+      </div>
+        <p class="ms-2 p-0">Layla, Forbes</p> 
+
+
+      
+    </div>
+
+    <div class="box" id="b3">
+      <img   style="border-radius: 10px; height: 250px;"class="img-fluid ms-3 shadow"  src="./images/behance20.jpg" alt="">
+      <div class="content ms-3 d-flex mt-3 p-0">
+        <h4>White Living Room  </h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 1500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;2478
+      </div>
+        <p class="ms-3 p-0">IKEA</p> 
+
+
+      
+    </div>
+
+    <div class="box" id="b4">
+      <img  style="border-radius: 10px; height: 250px;" class="img-fluid ms-4 shadow "  src="./images/behance7cr.jpg" alt="">
+      <div class="content ms-4 d-flex mt-3 p-0">
+        <h4>Poha and Pakoras</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 1200
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;3000
+      </div>
+        <p class="ms-4 p-0">Rajeev Vijay</p> 
+
+
+      
+    </div>
+
+    <div class="box" id="b5">
+      <img style="border-radius: 10px;" class="img-fluid  shadow mt-4"  src="./images/behance8.jpg" alt="">
+      <div class="content  d-flex mt-3 p-0">
+        <h4>Architecture &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 3089
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;5063
+      </div>
+        <p class=" p-0">Wayne Colin</p> 
+
+
+      
+    </div>
+
+    <div class="box" id="b6">
+      <img style="border-radius: 10px;" class="img-fluid ms-2 shadow mt-4"  src="./images/behance11.png" alt="">
+      <div class="content ms-2 d-flex mt-3 p-0">
+        <h4>Book Illustration</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 492
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;988
+      </div>
+        <p class="ms-2 p-0">Siya Soham</p> 
+
+
+      
+    </div>
+
+
+    <div class="box" id="b7">
+      <img style="border-radius: 10px;" class="img-fluid ms-2 shadow mt-4"  src="./images/behance12.jpg" alt="">
+      <div class="content ms-2 d-flex mt-3 p-0">
+        <h4>The Tribal Worker</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 5952
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;10.3k
+      </div>
+        <p class="ms-2 p-0">Zara Mcladen</p> 
+
+
+      
+    </div>
+
+
+    <div class="box" id="b8">
+      <img  style="border-radius: 10px;" class="img-fluid ms-2 shadow mt-4"  src="./images/behance1cr.jpg" alt="">
+      <div class="content ms-2 d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class="ms-2 p-0">Cecilia Adams</p> 
+
+
+      
+    </div>
+
+
+    <div class="box" id="b9">
+      <img  style="border-radius: 10px;"class="img-fluid  shadow mt-4"  src="./images/behance13.jpeg" alt="" height="500px" width="100%">
+      <div class="content  d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class=" p-0">Cecilia Adams</p> 
+
+
+      
+    </div>
+
+
+    <div class="box" id="b10">
+      <img style="border-radius: 10px;height: 280px;" class="img-fluid ms-2 shadow mt-4"  src="./images/behance14.jpeg" alt="" height="510px" width="100%">
+      <div class="content ms-2 d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class="ms-2 p-0">Cecilia Adams</p> 
+
+
+      
+    </div>
+
+
+    <div class="box" id="b11">
+      <img style="border-radius: 10px; height: 280px;"class="img-fluid ms-3 shadow mt-4"  src="./images/behance3.jpeg" alt="" >
+      <div class="content ms-2 d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class="ms-2 p-0">Cecilia Adams</p> 
+
+
+      
+    </div>
+
+
+    <div class="box" id="b12">
+      <img style="border-radius: 10px ;height: 280px; " class="img-fluid ms-3 me-2 shadow mt-4"  src="./images/behance1.jpg" alt="" >
+      <div class="content ms-3 d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class="ms-3 p-0">Cecilia Adams</p> 
+
+
+      
+    </div>
+
+
+    <div class="box" id="b13">
+      <img style="border-radius: 10px; height: 270px;"  class="img-fluid  shadow mt-4"  src="./images/behance15.jpeg" alt="" >
+      <div class="content  d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class=" p-0">Cecilia Adams</p> 
+
+
+      
+    </div>
+    <div class="box" id="b14">
+      <img style="border-radius: 10px; height: 270px;" class="img-fluid ms-3 shadow mt-4"  src="./images/nike.jpeg" alt="">
+      <div class="content ms-3 d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class="ms-3 p-0">Cecilia Adams</p> 
+
+
+      
+    </div>
+    <div class="box" id="b15">
+      <img style="border-radius: 10px; height: 270px;"class="img-fluid ms-4 shadow mt-4"  src="./images/behance16.jpg" alt="">
+      <div class="content ms-4 d-flex mt-3 p-0">
+        <h4>Nike New Red</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class="ms-4 p-0">Nike</p> 
+
+
+      
+    </div>
+    <div class="box" id="b16">
+      <img style="border-radius: 10px; height: 270px;" class="img-fluid ms-4 shadow mt-4"  src="./images/behance6.jpg" alt="">
+      <div class="content ms-4 d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class="ms-4 p-0">Cecilia Adams</p> 
+
+
+      
+    </div>
+    <div class="box" id="b17">
+      <img style="border-radius: 10px; height: 270px;" class="img-fluid ms-3 shadow mt-4"  src="./images/illustrations.jpg" alt="">
+      <div class="content ms-3 d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class="ms-3 p-0">Cecilia Adams</p> 
+
+
+      
+    </div>
+    <div class="box" id="b18">
+      <img style="border-radius: 10px; height: 270px;" class="img-fluid ms-4 shadow mt-4"  src="./images/behance17.jpg" alt="">
+      <div class="content ms-4 d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class="ms-4 p-0">Cecilia Adams</p> 
+
+
+      
+    </div>
+    <div class="box" id="b19">
+      <img style="border-radius: 10px;height: 270px;"class="img-fluid ms-4 shadow mt-4"  src="./images/behance18.jpg" alt="">
+      <div class="content ms-4 d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class="ms-4 p-0">Cecilia Adams</p> 
+
+
+      
+    </div>
+    <div class="box" id="b20">
+      <img style="border-radius: 10px; height: 270px;" class="img-fluid ms-4 shadow mt-4"  src="./images/behance10.jpg" alt="">
+      <div class="content ms-4 d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class="ms-4 p-0">Cecilia Adams</p>
+
+    </div>
+
+
+
+    <div class="box" id="b21">
+      <img style="border-radius: 10px; height: 270px;"  class="img-fluid  shadow mt-4"  src="./images/guy.jpg" alt="" >
+      <div class="content  d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class=" p-0">Cecilia Adams</p> 
+
+
+      
+    </div>
+    <div class="box" id="b22">
+      <img style="border-radius: 10px; height: 270px;" class="img-fluid ms-3 shadow mt-4"  src="./images/locationcar.jpeg" alt="">
+      <div class="content ms-3 d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class="ms-3 p-0">Cecilia Adams</p> 
+
+
+      
+    </div>
+    <div class="box" id="b23">
+      <img style="border-radius: 10px; height: 270px;"class="img-fluid ms-4 shadow mt-4"  src="./images/winterreceipes.jpg" alt="">
+      <div class="content ms-4 d-flex mt-3 p-0">
+        <h4>Nike New Red</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class="ms-4 p-0">Nike</p> 
+
+
+      
+    </div>
+    <div class="box" id="b24">
+      <img style="border-radius: 10px; height: 270px;" class="img-fluid ms-4 shadow mt-4"  src="./images/soccerinaction.jpeg" alt="">
+      <div class="content ms-4 d-flex mt-3 p-0">
+        <h4>The Early Sunrise</h4>
+        <i class="fa fa-solid fa-thumbs-up ms-5"></i> &nbsp; 500
+        <i class="fa fa-solid fa-eye ms-3"></i>&nbsp;1200
+      </div>
+        <p class="ms-4 p-0">Cecilia Adams</p> 
+
+
+      
+    </div>
+
+    </div>
+
+
+
+ 
+   
+<div class="div" style="align-items: center;" >
+<div class="subdiv">
+
+  <center>
+      <h2 style="align-items: center; font-size: 25px; "><a style="color: black;" href="">Signup</a> or <a style="color: black;" href="">Sign in </a>to view more work personalised to your preferences </h2> 
+      <br>
+      <a href="#" class="signup-btn" style="padding: 15px;
+       font-size: 20px; border-radius: 40px;">Signup with Email</a>  or  
+       
+        <!-- Mac -->
+       <a href="" target="_blank"   class="anim"><i class="fa-brands fa-apple"></i></a>
+        <!-- facebook -->
+       <a href="" target="_blank"  class="anim"><i class="fa-brands fa-facebook"></i></a>
+        <!-- google-->
+        <a href="" target="_blank" class="anim"><i class=" fa-brands fa-google"></i></a>
+        
+
+    </center>
+    </div>
+
+
+
+
+
+<br>
+
+
+      
+
+</div>
+
+<div class="bars ms-0">
+<div class="base-bar"></div>
+<div class="base-bar blue-bar"></div>
+
+
+</div>
+
+<div style="width: 100%;" class="paragraph mt-5">
+  <center>
+  <p> <span style="font-weight: 900;">Upgrade to Behance Pro today.</span> Get advanced analytics, a custom portfolio website, and more features to grow your creative career.<a style="color: rgb(45, 80, 147); font-weight: bold; text-decoration: none;" href="">Start your 7 day free trail</a> </p> 
+</center>
+
+</div>
+
+<footer id="footer " style="background-color: black;">
+  <div class="mainfooter">
+
+<div class="logo" style="color: white; margin-left: 20px;">
+  Bēhance
+</div>
+
+<div class="list">
+
+  <h4 style="color: white;">Built for Creatives</h4>
+  <ul>
+    <li><a href="">Try Behance Pro</a></li>
+    <li><a href="">Find Inspiration</a></li>
+    <li><a href="">Get Hired</a></li>
+    <li><a href="">Sell Creative Assets</a></li>
+    <li><a href="">Sell Freelance Services</a></li>
+  </ul>
+</div>
+
+<div class="list">
+  <h4 style="color: white;">Find Talent</h4>
+<ul>
+
+  <li><a href="">Post a Job</a></li>
+  <li><a href="">Graphic Designers</a></li>
+  <li><a href="">Photographers</a></li>
+  <li><a href="">Video Editors</a></li>
+  <li><a href="">Web Designers</a></li>
+  <li><a href="">Illustrators</a></li>
+</ul>
+
+</div>
+
+
+<div class="list">
+  <h4 style="color: white;">Behance</h4>
+  <ul>
+    <li><a href="">About Behance</a></li>
+    <li><a href="">Adobe Portfolio</a></li>
+    <li><a href="">Download the App</a></li>
+    <li><a href="">Blog</a></li>
+    <li><a href="">Careers</a></li>
+    <li><a href="">Help Center</a></li>
+    <li><a href="">Contact Us</a></li>
+  </ul>
+
+</div>
+
+<div class="list">
+  <h4 style="color: white;">Social</h4>
+  <ul>
+    <li><i class="fa-brands fa-square-instagram"></i> &nbsp;<a href="">Instagram </a></li>
+    <li><i class="fa-brands fa-x-twitter"></i> &nbsp;<a href="">Twitter </a></li>
+    <li><i class="fa-brands fa-facebook"></i> &nbsp;<a href="">Facebook</a></li>
+    <li><i class="fa-brands fa-pinterest"></i> &nbsp;<a href="">Pinterest </a></li>
+    <li><i class="fa-brands fa-linkedin"></i> &nbsp;<a href="">Linkedin</a></li>
+   
+  </ul>
+
+</div>
+
+</div>
+
+
+<hr style="color: white;">
+<div class="lastdiv">
+  <div class="divi">
+<img src="./images/adobe-removebg-preview.png" style="background-color: white;" alt="adobe" class="adobe"> 
+<div class="p"  style="color: white;">
+<p>© 2025 Adobe Inc. All rights reserved.</p>
+</div>
+</div>
+ 
+<div class="lists">
+<a href="">English</a>&nbsp;&nbsp;&nbsp;
+<a href="">TOU</a>&nbsp;&nbsp;&nbsp;
+<a href="">Privacy</a>&nbsp;&nbsp;&nbsp;
+<a href="">Community</a>&nbsp;&nbsp;&nbsp;
+<a href="">Cookie Preferences</a>&nbsp;&nbsp;&nbsp;
+<a href="">Do not sell or share my personal information</a>
+
+
+
+
+</div>
+</div>
+
+
+
+</footer>
+
+
+</div>
+     
+      
+   
+    
+
+  
+
+  
+
+   
+ 
+   
+
+
+
+
+    <!-- </div> -->
+    
+</body>
+</html>
